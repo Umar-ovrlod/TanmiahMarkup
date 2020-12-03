@@ -1,0 +1,27 @@
+﻿@model TanmiahMarkup.Models.BreadCrumbModel
+
+@if(Model != null)
+{
+    
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="breadcrumbs-list">
+                    <li>
+                        <a href="javascript:void(0)">@Model.MainLink </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">@Model.Link</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">@Model.Sublink</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+

@@ -1,0 +1,23 @@
+﻿@model TanmiahMarkup.Models.BannerDescriptionModel
+
+<div class="spotlight spotlight--green-box">
+    <div class="banner">
+        <div>
+            <img class="object-fit desktop" src="~/Content/Common/images/spotlight/tanmiah-product.jpg" alt="Tanmiah Spotlight">
+        </div>
+        <div>
+            <img class="object-fit mobile" src="~/Content/Common/images/spotlight/tanmiah-product-mob.jpg" alt="Tanmiah Spotlight">
+        </div>
+    </div>
+    <div class="text-box bg-light-green">
+        <div class="icon-n-text">
+            <strong><img src="~/Content/Common/images/spotlight/burger-icon.svg" alt="PROCESSED FOOD"></strong>
+            <span>@Model.FoodCategory</span>
+        </div>
+        <h3 class="text-box__heading">@Model.FoodItem</h3>
+        <p class="text-box__disc">@Model.FoodCo</p>
+    </div>
+</div>
+
+
+

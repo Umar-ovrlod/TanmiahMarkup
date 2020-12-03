@@ -1,0 +1,75 @@
+﻿@model TanmiahMarkup.Models.NuggetModel
+<div class="container container-medium ">
+    <div class="highlighted-content full-width-before">
+        <div class="outer-container">
+            <h2 class="heading-bold-primary">@Model.NuggetTitle</h2>
+            <p>
+                @Model.NuggetText
+            </p>
+            <p>
+               @Model.NuggetTextMore
+            </p>
+            <p>&nbsp;</p>
+            <h2 class="heading-bold-primary">@Model.NutritionPack</h2>
+            <ul class="feature-listing feature-listing--blocks feature-listing--borders">
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Energy</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">kcal</span>
+                        </h4>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Carbohydrates</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">g</span>
+                        </h4>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Protiens</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">g</span>
+                        </h4>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Fat</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">g</span>
+                        </h4>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Protiensdual</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">g</span>
+                        </h4>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="list-content">
+                        <h5 class="list-content__small-heading">@Model.Fatdual</h5>
+                        <h4 class="list-content__heading">
+                            00
+                            <span class="list-suffix">g</span>
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+            <p>&nbsp;</p>
+            <h2 class="heading-bold-primary">@Model.Order</h2>
+            <a href="javascript:void(0)" class="btn btn-primary">ORDER NOW</a>
+        </div>
+    </div>
+</div>
